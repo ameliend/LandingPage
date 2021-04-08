@@ -1,1 +1,47 @@
 @import "bootstrap/scss/bootstrap";
+@import "components/index";
+
+
+.landing-content{
+  padding-top: 181px;
+  padding-left: 164px;
+}
+
+h1{
+  color: #6644EF;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.landing{
+  background-color: #F4F1FD;
+  height: 80vh;
+}
+
+#services{
+  margin-top: 50px;
+  text-align: center;
+}
+
+#works{
+  background-color: #6644EF;
+  color: white;
+  height: 357px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#contact{
+  background-color: #F4F1FD;
+  height: 80vh;
+  margin-top: 120px;
+}
+
+
+
+
+@media(max-width: 768px) {
+  .services-cards, .works-cards {
+    grid-template-columns: 1fr;
+  }
+}

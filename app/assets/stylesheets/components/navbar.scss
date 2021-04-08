@@ -1,0 +1,26 @@
+.nav{
+background-color: white;
+height: 80px;
+width: 100%
+}
+
+.nav-list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 80px;
+}
+
+.nav-item{
+  font-size: 28px;
+  font-weight: lighter;
+  a{
+    color: #706678;
+  }
+
+  a:hover{
+    color: #706678;
+    font-weight: normal;
+  }
+}
