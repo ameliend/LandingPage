@@ -1,6 +1,6 @@
 @import "bootstrap/scss/bootstrap";
 @import "components/index";
-
+@import url("fonts/TisaSansPro/stylesheet.css");
 
 .landing-content{
   padding-top: 181px;
@@ -41,7 +41,7 @@
 
 #contact{
   background-color: #F4F1FD;
-  height: 80vh;
+  height: 48vh;
   margin-top: 120px;
   padding-top: 50px;
 
@@ -54,8 +54,17 @@
     color: #6644EF;
     line-height: 0.5;
   }
+
+  a{
+    color: #706678;
+    padding-left: 20px;
+  }
 }
 
+.mail{
+  margin-top: 50px;
+  font-size: 30px;
+}
 
 
 

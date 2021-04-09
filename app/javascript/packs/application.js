@@ -20,6 +20,7 @@ require("channels")
 import { initButton } from '../components/init-button';
 import { loadDynamicBannerText } from '../components/banner';
 
+
 document.addEventListener('turbolinks:load', () => {
   AOS.init({
     offset: 300,

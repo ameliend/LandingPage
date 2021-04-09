@@ -35,3 +35,13 @@
 .block{
   height: 677px;
 }
+
+.card-cover1{
+  background-image: asset-url('geste.jpg');
+  background-size: cover;
+}
+
+.card-cover2{
+  background-image: asset-url('fink.jpg');
+  background-size: cover;
+}

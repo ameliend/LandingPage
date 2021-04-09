@@ -7,6 +7,14 @@
   text-align: center;
   font-size: 22px;
   margin-top: 25px;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+
+.cta:hover{
+  color: #6644EF;
+  background-color: white;
+  border: 1px solid #6644EF;
 }
 
 .disc-btn{
