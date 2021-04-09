@@ -18,6 +18,7 @@ require("@rails/activestorage").start()
 require("channels")
 
 import { initButton } from '../components/init-button';
+import { loadDynamicBannerText } from '../components/banner';
 
 document.addEventListener('turbolinks:load', () => {
   AOS.init({
@@ -25,4 +26,5 @@ document.addEventListener('turbolinks:load', () => {
     duration: 2000,
   });
   initButton();
+  loadDynamicBannerText();
 });

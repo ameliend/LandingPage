@@ -5,12 +5,20 @@
 .landing-content{
   padding-top: 181px;
   padding-left: 164px;
-}
+  height: 500px;
 
-h1{
+  h1{
   color: #6644EF;
   font-weight: bolder;
   font-size: 60px;
+  }
+
+  p{
+    font-size: 24px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 50px;
+  }
 }
 
 .landing{
