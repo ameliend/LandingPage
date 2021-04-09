@@ -4,6 +4,8 @@
     <title>Amélien Delahaie</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= favicon_link_tag asset_path('logo.png') %>
@@ -13,5 +15,7 @@
 
   <body>
     <%= yield %>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   </body>
 </html>

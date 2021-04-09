@@ -19,4 +19,19 @@
   border-radius: 4px;                        /* Small radius */
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
   height: 308px;
+  overflow: hidden;
+
+  span{
+    font-size: 78px;
+    margin-bottom: 21px;
+  }
+
+  h6{
+    padding-bottom: 17px;
+    font-weight: bolder;
+  }
+}
+
+.block{
+  height: 677px;
 }
