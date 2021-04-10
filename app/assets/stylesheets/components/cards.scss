@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 25px;
   margin-top: 40px;
+  width: 100%;
 }
 
 
@@ -12,6 +13,7 @@
   grid-gap: 25px;
   margin-top: -165px;
   margin-bottom: 30px;
+  overflow-x: hidden;
 }
 
 .card{
@@ -44,4 +46,20 @@
 .card-cover2{
   background-image: asset-url('fink.jpg');
   background-size: cover;
+}
+
+@media(max-width: 768px) {
+  .card{
+    height: 200px;
+    padding: 20px;
+
+    span{
+      font-size: 40px;
+      margin-bottom: 12px;
+    }
+
+    h6{
+    padding-bottom: 11px;
+    }
+  }
 }

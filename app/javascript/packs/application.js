@@ -23,7 +23,7 @@ import { loadDynamicBannerText } from '../components/banner';
 
 document.addEventListener('turbolinks:load', () => {
   AOS.init({
-    offset: 300,
+    offset: 100,
     duration: 2000,
   });
   initButton();
