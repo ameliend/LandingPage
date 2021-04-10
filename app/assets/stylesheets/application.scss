@@ -43,7 +43,7 @@
 
 #contact{
   background-color: #F4F1FD;
-  height: 48vh;
+  height: auto;
   margin-top: 120px;
   padding-top: 50px;
 
@@ -67,6 +67,11 @@
   }
 }
 
+.contact-content{
+  display: flex;
+  justify-content: space-between;
+
+}
 
 
 @media(max-width: 768px) {
@@ -98,4 +103,10 @@
   #contact{
     margin-top: 70px;
   }
+
+  .contact-content{
+    flex-direction: column;
+
+  }
+
 }
