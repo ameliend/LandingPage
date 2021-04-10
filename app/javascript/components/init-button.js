@@ -2,14 +2,19 @@ const initButton = () => {
   const toggleBtn = document.querySelector('#toggleBtn');
   const divList = document.querySelectorAll('.discover');
 
-  toggleBtn.addEventListener('click', () => {
+  const addBlock = (e) => {
+        e.preventDefault();
+
     divList.forEach((item) => {
       item.classList.add('block');
     });
-  });
+  }
+
+  toggleBtn.addEventListener('click', addBlock, false);
+  toggleBtn.addEventListener('touchend', addBlock, false);
 };
+
 
 export { initButton };
 
 
-// divList.classList.add('block');
