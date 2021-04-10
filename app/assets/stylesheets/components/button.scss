@@ -28,3 +28,11 @@ button{
   background-color: white;
   color: #706678;
 }
+
+@media(max-width: 768px) {
+  .cta{
+    width: 156px;
+    padding: 8px;
+    font-size: 18px;
+  }
+}
