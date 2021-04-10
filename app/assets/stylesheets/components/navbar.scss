@@ -1,7 +1,7 @@
 .nav{
 background-color: white;
 height: 80px;
-width: 100%
+width: 100%;
 }
 
 .nav-list{
@@ -22,5 +22,15 @@ width: 100%
   a:hover{
     color: #706678;
     font-weight: normal;
+  }
+}
+
+@media(max-width: 768px) {
+  .nav-item{
+  font-size: 18px;
+  }
+
+  .nav-list{
+      width: 80%;
   }
 }

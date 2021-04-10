@@ -3,9 +3,10 @@
 @import url("fonts/TisaSansPro/stylesheet.css");
 
 .landing-content{
-  padding-top: 181px;
-  padding-left: 164px;
-  height: 500px;
+  padding-top: 185px;
+  margin-left: 123px;
+  height: 80vh;
+  width: auto;
 
   h1{
   color: #6644EF;
@@ -24,6 +25,7 @@
 .landing{
   background-color: #F4F1FD;
   height: 80vh;
+  width: 100%;
 }
 
 #services{
@@ -71,5 +73,9 @@
 @media(max-width: 768px) {
   .services-cards, .works-cards {
     grid-template-columns: 1fr;
+  }
+
+  .landing-content{
+    margin-left: 44px;
   }
 }
